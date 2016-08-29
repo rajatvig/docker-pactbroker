@@ -17,7 +17,7 @@ tag:
 	docker tag $(GIT_TAG) $(LATEST_TAG)
 
 run:
-	docker-compose up
+	docker-compose up --build
 
 login:
 	@docker login -u "$(DOCKER_USER)" -p "$(DOCKER_PASS)"
