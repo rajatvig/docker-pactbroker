@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/rajatvig/docker-pactbroker.svg?branch=master)](https://travis-ci.org/rajatvig/docker-pactbroker)
+[![](https://imagelayers.io/badge/rajatvig/pactbroker:latest.svg)](https://imagelayers.io/?images=rajatvig/pactbroker:latest 'Get your own badge on imagelayers.io')
+
 ### Pact Broker
 
 #### Overview
