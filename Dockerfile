@@ -1,5 +1,16 @@
 FROM ruby:2.3.1
 
+ARG VCS_REF
+ARG IMAGE_VERSION
+
+LABEL org.label-schema.vcs-ref=$VCS_REF \
+      org.label-schema.vcs-url="https://github.com/rajatvig/docker-pactbroker" \
+      org.label-schema.name="pactbroker" \
+      org.label-schema.description="Run Pact Broker" \
+      org.label-schema.version=$IMAGE_VERSION \
+      org.label-schema.schema-version="1.0" \
+      org.label-schema.docker.cmd="docker run -d -t -p 8000:8000 rajatvig/pactbroker:latest"
+
 ENV APP_DIR /var/run
 ENV LOG_DIR /var/log/pactbroker
 ENV NGINX_DIR /etc/nginx

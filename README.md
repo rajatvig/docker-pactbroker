@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/rajatvig/docker-pactbroker.svg?branch=master)](https://travis-ci.org/rajatvig/docker-pactbroker)
-[![](https://imagelayers.io/badge/rajatvig/pactbroker:latest.svg)](https://imagelayers.io/?images=rajatvig/pactbroker:latest 'Get your own badge on imagelayers.io')
+[![](https://images.microbadger.com/badges/image/rajatvig/pactbroker.svg)](http://microbadger.com/images/rajatvig/pactbroker "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/rajatvig/pactbroker.svg)](http://microbadger.com/images/rajatvig/pactbroker "Get your own version badge on microbadger.com")
 
 ### Pact Broker
 
